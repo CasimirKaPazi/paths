@@ -89,9 +89,7 @@ minetest.register_globalstep(function(dtime)
 			end
 			
 			if	n_ground.name == "default:dirt_with_grass" or
-				n_ground.name == "default:mossycobble" or
-				n_ground.name == "default:water_source" or
-				n_ground.name == "default:water_flowing"
+				n_ground.name == "default:mossycobble"
 			then
 				if playersGrass[player_name] < 1 then
 					playersGrass[player_name] = 1
